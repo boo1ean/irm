@@ -6,7 +6,7 @@ var installRequiredDependencies = function(path, opt) {
 
 	find(path, function(err, requires) {
 		npm.load({ loaded: false }, function() {
-			npm.install(path, requires);
+			npm.commands.install(path, requires);
 		});
 	});
 };
