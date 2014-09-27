@@ -1,6 +1,6 @@
 {
   "name": "irm",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Install Required Dependencies",
   "main": "index.js",
   "scripts": {
@@ -28,7 +28,6 @@
   },
   "homepage": "https://github.com/boo1ean/irm",
   "dependencies": {
-    "all-requires": "0.0.3",
-    "npm": "^2.0.2"
+    "all-requires": "0.0.3"
   }
 }
