@@ -3,6 +3,9 @@ irm
 
 Install Required Modules
 
+
+Finds all dependencies for your project via [all-requires](http://github.com/boo1ean/all-requires) and installs it with [npm](http://github.com/npm/npm) 
+
 ## Installation
 
 ```
