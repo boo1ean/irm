@@ -5,8 +5,8 @@ var installRequiredDependencies = function(path, opt) {
 	opt = opt || {};
 
 	find(path, function(err, requires) {
-		npm.load({}, function() {
-			npm.install(requires);
+		npm.load({ loaded: false }, function() {
+			npm.install(path, requires);
 		});
 	});
 };
