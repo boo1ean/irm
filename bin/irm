@@ -1,4 +1,7 @@
 #!/usr/bin/env node
 
 var irm = require('../');
-irm(process.cwd());
+var omit = require('object.omit');
+var argv = require('minimist')(process.argv.slice(2));
+
+irm(process.cwd(), omit(argv, '_'));
