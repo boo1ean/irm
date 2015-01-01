@@ -34,5 +34,11 @@ equals
 npm install bluebird lodash request
 ```
 
+## Install and save deps
+
+You can pass same options as for `npm install` command
+
+irm --save
+
 ## LICENSE
 MIT
