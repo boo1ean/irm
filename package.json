@@ -28,6 +28,9 @@
   },
   "homepage": "https://github.com/boo1ean/irm",
   "dependencies": {
-    "all-requires": "0.0.3"
+    "all-requires": "^0.0.3",
+    "minimist": "^1.1.0",
+    "npm": "^2.1.16",
+    "object.omit": "^0.2.1"
   }
 }
